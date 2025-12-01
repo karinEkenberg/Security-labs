@@ -2,12 +2,12 @@
 
 This project demonstrates the security risks of cleartext protocols by analyzing traffic between **Kali Linux** and **Metasploitable 2** using **Wireshark**.
 
-## 🛠 Tools Used
+## Tools Used
 * **Kali Linux** (Attacker/Client)
 * **Metasploitable 2** (Vulnerable Target)
 * **Wireshark** (Packet Analysis)
 
-## 🔍 Findings
+## Findings
 
 ### 1. Telnet (Unencrypted)
 Traffic sent via Telnet is transmitted in **cleartext**.
@@ -23,3 +23,4 @@ Traffic sent via SSH is **encrypted**.
 * **Conclusion:** Even if the traffic is intercepted, the payload remains secure.
 
 <img width="804" height="601" alt="kali-ssh" src="https://github.com/user-attachments/assets/7609f45e-e576-4ed9-8130-7b215e50588a" />
+
